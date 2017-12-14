@@ -1,0 +1,88 @@
+.body {
+    width: auto;
+    height: auto;
+    max-height: 90%;
+    margin: auto;
+}
+
+html {
+    width: auto;
+    height: auto;
+    background-color: rgb(105, 160, 185);
+    margin: auto;
+}
+
+.mainTable {
+    margin: auto;
+    background-color: rgb(250, 245, 240);
+    width: 534px;
+    height: 764px;
+}
+
+.bodyHead {
+    width: 534px;
+    height: 80px;
+    background-color: black;
+}
+
+.names {
+    widows: 534px;
+    height: 50px;
+    background-color: ;
+}
+
+.gameField {
+    background-image: url(../img/pole3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gameField {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.button {
+    background-image: url(../img/back2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 138px;
+    height: 36px;
+    margin: auto;
+}
+
+.ai {
+    background-image: url(../img/ai1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    margin: 50px auto;
+    width: 300px;
+    height: 300px;
+}
+
+.cell {
+    margin: auto;
+    background-color: rgb(237, 28, 36, 0.00);
+    border: 2px solid rgb(237, 28, 36, 0.00);
+    float: left;
+    height: 96px;
+    width: 96px;
+}
+
+.cell:hover {
+    border-color: rgb(237, 28, 36, 0.0);
+}
+
+.player {
+    background-image: url(../img/player1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p {
+    padding-top: 20px;
+}
