@@ -46,10 +46,11 @@ html {
 .button {
     background-image: url(../img/back2.png);
     background-repeat: no-repeat;
-    background-position: center;
+    display: block;
     width: 138px;
-    height: 36px;
+    height: 23px;
     margin: auto;
+    padding-top: 25px;
 }
 
 .ai {
