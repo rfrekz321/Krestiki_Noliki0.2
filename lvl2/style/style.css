@@ -57,6 +57,7 @@ html {
     background-image: url(../img/ai1.png);
     background-repeat: no-repeat;
     background-position: center;
+    transition-delay: 5ms;
 }
 
 .container {
