@@ -88,3 +88,10 @@ html {
 p {
     padding-top: 20px;
 }
+
+.timer {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}

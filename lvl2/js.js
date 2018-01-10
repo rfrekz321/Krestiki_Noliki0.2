@@ -41,24 +41,16 @@ function secudomer() {
         interval = setInterval(function() {
             stopwatch_value++;
 
-
-            chasov = Math.floor(stopwatch_value / 3600);
             minut = Math.floor((stopwatch_value - chasov * 3600) / 60);
             sekund = stopwatch_value - (chasov * 3600 + minut * 60);
 
-            result = "<b>" + chasov + " часов " + minut + " мин " + sekund + " cек</b>";
+            result = "<b>" + minut + " мин " + sekund + " cек</b>";
 
             var SummDok1 = document.getElementById('secudomer1');
             SummDok1.innerHTML = result;
 
         }, 1000);
     };
-
-    this.stop = function() {
-        clearInterval(interval);
-    };
-
-
 
 }
 
